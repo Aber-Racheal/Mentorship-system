@@ -1,0 +1,133 @@
+/* SIGN UP PAGE */
+
+.form{
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    margin: 35%;
+    margin-top: 5%;
+    background-color: aqua;
+    height: 700px;
+    padding-top: 90px;
+    padding-right: 0px;
+    justify-content: center;
+    
+}
+
+#logo{
+    margin-left: 40%;
+}
+
+#create-account{
+text-align: center;
+}
+
+#connect-mentor{
+    text-align: center;
+}
+.input-first{
+    height: 50px;
+    margin: 2%;
+    border-radius: 10px;
+    border: 2px solid purple;
+    margin-left: 15%;
+}
+
+
+.input-last{
+    height: 50px;
+    margin: 2%;
+    border-radius: 10px;
+    border: 2px solid purple;
+}
+.names{
+    display: flex;
+    gap: 40px;
+}
+.input{
+    height: 50px;
+    margin: 2%;
+    border-radius: 10px;
+    border: 2px solid purple;
+    width: 75%;
+}
+
+.inputs{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#sign-up-button{
+    height: 50px;
+    margin-top: 5%;
+    width: 40%;
+}
+
+
+
+
+
+
+/* LOG IN */
+body{
+    background-color: rgb(238, 200, 206);
+}
+
+.form-log-in{
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    margin: 35%;
+    margin-top: 5%;
+    background-color: aqua;
+    height: 700px;
+    padding-top: 90px;
+    padding-right: 0px;
+    justify-content: center;
+}
+
+
+
+#connect-mentor{
+    text-align: center;
+}
+
+
+
+
+/* HOME PAGE STYLES */
+
+.profile-pictures{
+    display: flex;
+}
+
+
+.logo-and-header{
+    display: flex;
+}
+
+
+
+
+/* TERMS STYLES */
+
+
+.terms-conditions{
+    padding: 20px;
+    border: 2px solid ;
+}
+.page-heading{
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+
+}
+
+
+
+
+/* Landing page */
+.page-intro{
+    padding: 10px;
+}
