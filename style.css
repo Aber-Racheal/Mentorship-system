@@ -74,7 +74,7 @@ text-align: center;
     display: flex;
     gap: 40px;
 }
-.input{
+#inputs{
     height: 50px;
     margin: 2%;
     border-radius: 10px;
@@ -269,6 +269,11 @@ body{
     font-weight: bolder;
     margin-top: 0%;
 
+}
+
+#mentor-pp a{
+    color: whitesmoke;
+    
 }
 
 /* TERMS STYLES */
@@ -493,7 +498,24 @@ gap: 100px;
 
 }
 
+#table-title-achiv{
+    text-align: center;
+    margin-left: 30%;
+    font-size: 40px;
+    padding: 50px;
+    font-weight: 550;
 
+}
+
+
+#table-title-todo{
+    text-align: center;
+    margin-left: 30%;
+    font-size: 40px;
+    padding: 50px;
+    font-weight: 550;
+
+}
 #save-button{
 background: aquamarine;
 border:purple 2px solid;
