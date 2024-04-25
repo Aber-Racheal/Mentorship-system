@@ -4,60 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaols, Achievements and Tasks</title>
-    <style> table, th, td {border: 2px solid black;}
-    </style>
+    
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Personal data</h2>
+   
+
+    <div class="logo-and-header">
+       <div class="nav-bar">
+        <div>
+            <a href="inner-page.html">Goal setting</a>
+        </div>
+
+        <div>
+        <a href="inner-page.html">Achievements</a>
+        </div>
+
+        <div>
+            <a href="inner-page.html">To-Do</a>
+        </div>
+    </div>
+
+    </div>
 
     <div class="tables">
-        <table>
-            <label for="table">Goal Setting</label>
+        <table id="table">
+            <label for="table" id="table-title">Goal Setting</label>
             <tr>
-                <th>Short term</th>
-                <th>Long term</th>
-                <th>Career goals</th>
+                <th id="table-headings">Short term</th>
+                <th id="table-headings">Long term</th>
+                <th id="table-headings">Career goals</th>
             </tr>
             <tr>
-                <td>+</td>
-                <td>+</td>
-                <td>+</td>
+                <td><textarea name="text" id="type-area" cols="30" rows="10" placeholder="+Add goal"></textarea><button id="save-button">Save</button></td>
+                <td><textarea name="text" id="type-area" cols="30" rows="10" placeholder="+Add goal"></textarea><button id="save-button">Save</button></td>
+                <td><textarea name="text" id="type-area" cols="30" rows="10" placeholder="+Add goal"></textarea><button id="save-button">Save</button></td>
             </tr> 
             </tr>
             
         </table>
     
         <table>
-            <label for="table">Achievements</label>
+            <label for="table"   id="table-title">Achievements</label>
             <tr>
-                <th>Short term</th>
-                <th>Long term</th>
-                <th>Career goals</th>
+                <th id="table-headings">Wins</th>
+                <th id="table-headings">Date</th> 
+                <th id="table-headings">Description</th>
             </tr>
             <tr>
-                <td>+</td>
-                <td>+</td>
-                <td>+</td>
+                <td><textarea name="text" id="type-area" cols="30" rows="10" placeholder="+Add wins"></textarea><button id="save-button">Save</button></td>
+                <td><input type="date"><textarea name="text" id="type-area" cols="30" rows="10"></textarea><button id="save-button">Save</button></td>
+                <td><textarea name="text" id="type-area" cols="30" rows="10" placeholder="+Type progress"></textarea><button id="save-button">Save</button></td>
             </tr> 
             </tr>
             
         </table>
     
         <table>
-            <label for="table">To-do</label>
+            <label for="table"  id="table-title">To-do</label>
             <tr>
-                <th>Short term</th>
-                <th>Long term</th>
-                <th>Career goals</th>
+                <th id="table-headings">Task</th>
+                <th id="table-headings">Date</th>
+                <th id="table-headings">Progress</th>
             </tr>
             <tr>
-                <td>+</td>
-                <td>+</td>
-                <td>+</td>
+                <td><textarea name="text" id="type-area" cols="30" rows="10" placeholder="+Add task"></textarea><button id="save-button">Save</button></td>
+                <td><input type="date"><textarea name="text" id="type-area" cols="30" rows="10"></textarea><button id="save-button">Save</button></td>
+                <td><textarea name="text" id="type-area" cols="30" rows="10" placeholder="+Add goal"></textarea><button id="save-button">Save</button></td>
             </tr> 
             </tr>
             
         </table>
+    </div>
+
+
+
+
+    <div>
+
     </div>
    
 </body>
